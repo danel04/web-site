@@ -1,0 +1,62 @@
+<!DOCTYPE html>  <!-- Definir el documento en formato HTML5 -->
+
+<html> <!-- todo dentro de estas etiquetas es HTML5-->
+
+    <head> <!-- datos de cabecera, metadatos-->
+        <meta charset="UTF-8"> <!-- para que los navegadores lean todo tipo de caracteres de idiomas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Productos - Barbería Alura</title> <!-- titulo del sitio web-->
+        <link rel="stylesheet" href="reset.css"> <!-- se enlanzan los CSS -->
+        <link rel="stylesheet" href="style.css">
+
+    
+    </head> 
+
+    <body> <!-- el cuerpo del sitio web, contiene toda la estructura-->
+        <header> <!-- el encabezado visible de la pagina web-->
+            <h1 class="titulo-superior">Productos</h1>
+            <img src="imagenes/logo-blanco.png" class="logo-superior">
+            <input type="checkbox" id="check">
+            <label for="check" class="mostrar-menu">
+                &#8801
+            </label>
+            <nav class="menu">
+                    
+                <a href="index.html">Home</a>
+                <a href="productos.html">Productos</a>
+                <a href="contactos.html">Contacto</a>
+                <label for="check" class="esconder-menu">
+                    &#215
+                </label>
+            </nav>
+        </header>
+        
+
+        <main>
+            <ul class="productos">
+                <li>
+                    <h2>Cabello</h2>
+                    <img src="imagenes/pexels-marvin-sacdalan-13138585.jpg" class="cabello">
+                    <p class="producto-descripcion">Con tijera o máquina, a gusto del cliente</p>
+                    <p class="producto-precio">$ 10.00</p>
+                </li>
+                <li>
+                    <h2>Barba</h2>
+                    <img src="imagenes/barba1.jpg" class="barba">
+                    <p class="producto-descripcion">Corte y diseño profesional de barba</p>
+                    <p class="producto-precio">$ 08.00</p>
+                </li>
+                <li>
+                    <h2>Cabello + Barba</h2>
+                    <img src="imagenes/pexels-cottonbro-studio-3998421.jpg" class="cabellobarba">
+                    <p class="producto-descripcion">Paquete completo de cabello y barba</p>
+                    <p class="producto-precio">$ 15.00</p>
+                </li>
+            </ul>
+        </main>
+        <footer>
+            <img src="imagenes/logo-blanco.png" class="logo">
+            <p class="copyright">&copy Copyright Barbería Alura - 2020</p>
+        </footer>
+    </body>
+</html>

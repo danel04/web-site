@@ -1,0 +1,210 @@
+
+header {
+    height: 150px;
+    background: #1d1716;
+    padding: 0 30px;
+    color: #f3bc77;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-superior {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    padding-left: 30px;
+    width: 100px;
+    height: auto;
+  }
+  
+
+.titulo-principal {
+    padding-left: 130px;
+    font-size: 30px;
+    color: #ccae88;
+  
+  }
+
+
+  
+  
+
+  
+
+
+
+.menu a{
+    color: #f3bc77;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+}
+
+.mostrar-menu, .esconder-menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+}
+
+.mostrar-menu{
+    order: 1;
+}
+
+.menu a:hover, .mostrar-menu:hover, .esconder-menu:hover{
+
+    color: #a55233;
+}
+
+#check{
+    display: none;
+}
+
+@media(max-width: 768px){
+    .mostrar-menu, .esconder-menu{
+        display: block;
+    }
+
+
+    .menu{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #63523fef;
+        right: -100%;
+        top: 0;
+        text-align: center;
+        padding: 100px 0px;
+        z-index: 100;
+        transition: 0.8s;
+    }
+    
+    .menu a{
+        display: block;
+        padding: 20px;
+    }
+
+    .esconder-menu{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+
+    #check:checked ~ .menu{
+        right: 0;
+    }
+
+}
+
+#banner {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(imagenes/pexels-afta-putta-gunawan-683039.jpg); 
+    background-size: cover;
+     padding: 100px;
+     color: #CCCCCC;
+     display: flex;
+     justify-content: center;
+ }
+ .bienvenida {
+    background-color: rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 30px;
+
+    font-family: "Arial", sans-serif;
+    color: #f3bc77;
+  }
+  
+  
+
+
+    
+
+
+
+.principal{
+    background: #ffffff;
+    padding: 50px;
+}
+
+.titulo-centralizado{
+    text-align:left;
+    background-color: rgba(201, 166, 96, 0.527);
+
+    padding: 10px;
+    font-size: 30px;
+}
+
+p{
+    text-align:justify;
+    font-size: 18px;
+}
+
+em strong{
+    color:#aa7450;
+}
+
+#mision{
+    font-size: 20px;
+}
+
+.diferenciales{
+    background: #FFFFFF;
+    padding: 40px;
+    padding-bottom: 80px;
+}
+
+
+.items{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagenDiferenciales {
+    width: 40%;
+    border-radius: 50%;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.822);
+}
+
+
+
+    
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+footer {
+   
+    text-align:center;
+    background-color: #201d1b;
+    padding: 10px;
+    color:  #f3bc77;
+    height: auto; 
+}
+
+.copyright{
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto; 
+    max-width: 100%;
+}
+
+
